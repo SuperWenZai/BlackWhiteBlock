@@ -6,6 +6,10 @@
 
 vue + css3 + h5
 
+# 示例（images）
+
+![image](https://github.com/SupermanWenZai/BlackWhiteBlock/blob/master/src/assets/images/block.png)
+
 # Build Setup
 
 ``` bash
