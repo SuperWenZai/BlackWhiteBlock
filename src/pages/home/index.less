@@ -1,0 +1,31 @@
+.sm-contain {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.sm-contain-block {
+    box-sizing: border-box;
+    border: .05rem solid #333333;
+    border-bottom: none;
+    overflow: hidden;
+    .content {
+        position: relative;
+        max-width: 750px;
+        margin: 0 auto;
+        width: 101%;
+        height: 100%;
+        .numTime {
+            position: absolute;
+            top: 0;
+            right: 2%;
+        }
+    }
+    .block {
+        box-sizing: border-box;
+        border-right: .05rem solid #333333;
+        border-bottom: .05rem solid #333333;
+        width: 25%;
+        float: left;
+    }
+}

@@ -1,0 +1,125 @@
+html {
+  font-size: 20px;
+}
+@media only screen and (min-width: 401px) {
+  html {
+    font-size: 25px !important;
+  }
+}
+@media only screen and (min-width: 428px) {
+  html {
+    font-size: 26.75px !important;
+  }
+}
+@media only screen and (min-width: 481px) {
+  html {
+    font-size: 30px !important;
+  }
+}
+@media only screen and (min-width: 569px) {
+  html {
+    font-size: 35px !important;
+  }
+}
+@media only screen and (min-width: 641px) {
+  html {
+    font-size: 40px !important;
+  }
+}
+* {
+  word-break: break-all;
+  font-family: "微软雅黑", tahoma, '宋体', Arial, Lucida, Verdana, Helvetica, sans-serif;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #333333;
+  max-width: 750px;
+  margin: 0;
+  padding: 0;
+  font-size: .8rem;
+}
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+  -webkit-padding-start: 0;
+}
+i,
+em {
+  font-style: normal;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+input {
+  font-size: 0.14rem;
+}
+input[type="submit"],
+input[type="button"],
+input[type="text"] {
+  -webkit-appearance: none !important;
+  border-radius: 0 !important;
+}
+input:focus,
+textarea:focus,
+selects:focus {
+  border-color: #feebd9 !important;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #fecb98;
+}
+html,
+a {
+  text-decoration: none;
+}
+caption,
+th {
+  text-align: left;
+}
+sup,
+sub {
+  font-size: 100%;
+  vertical-align: baseline;
+}
+:link,
+:visited,
+ins {
+  text-decoration: none;
+}
